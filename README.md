@@ -2,17 +2,13 @@
 
 # 
 
-# This project implements a CMOS NAND gate used as a building block of the CD4011 logic IC.
+# !\[License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+# !\[Technology](https://img.shields.io/badge/Technology-TSMC\_180nm-green)
 
 # 
 
-# The design includes transistor-level schematic design, SPICE simulations, layout implementation in Magic VLSI and analysis of output drive capability.
-
-# 
-
-# Technology: TSMC 180nm  
-
-# Supply voltage: 1.8V
+# This repository contains the implementation of a \*\*CMOS NAND gate\*\*, serving as the fundamental building block of the classic \*\*CD4011\*\* logic IC. The design focuses on high-performance digital logic using a modern 180nm process node.
 
 # 
 
@@ -20,45 +16,23 @@
 
 # 
 
-# \## Design flow
+# \## Project Overview
 
 # 
 
-# 1\. Transistor-level NAND gate design in SPICE
-
-# 2\. Functional verification and operating point analysis
-
-# 3\. Output buffer design using tapered CMOS buffer chain
-
-# 4\. Layout implementation in Magic VLSI
-
-# 5\. Post-layout verification
+# The project covers the full custom IC design flow, from transistor-level schematics to physical layout and verification.
 
 # 
 
-# ---
+# \### Key Features:
 
-# 
+# \* \*\*Transistor-level design:\*\* Optimized NAND logic core.
 
-# \## Circuit structure
+# \* \*\*High Drive Capability:\*\* Integrated multi-stage \*\*tapered CMOS buffer chain\*\*.
 
-# 
+# \* \*\*Physical Design:\*\* Full layout implemented in \*\*Magic VLSI\*\*.
 
-# The circuit consists of:
-
-# 
-
-# \- CMOS NAND logic core
-
-# \- multi-stage output buffer
-
-# \- input protection structures
-
-# \- bonding pads
-
-# 
-
-# The output buffer uses a scaling factor of 3 between stages to improve drive capability.
+# \* \*\*I/O Protection:\*\* Basic input protection structures and bonding pad considerations.
 
 # 
 
@@ -66,13 +40,23 @@
 
 # 
 
-# \## Tools used
+# \## Technical Specifications
 
 # 
 
-# \- SPICE
+# | Parameter | Value |
 
-# \- Magic VLSI
+# | :--- | :--- |
+
+# | \*\*Technology\*\* | TSMC 180nm |
+
+# | \*\*Supply Voltage ($V\_{DD}$)\*\* | 1.8V |
+
+# | \*\*Logic Function\*\* | 2-Input NAND |
+
+# | \*\*Buffer Scaling Factor\*\* | $k=3$ (per stage) |
+
+# | \*\*Tools\*\* | SPICE, Magic VLSI |
 
 # 
 
@@ -80,11 +64,19 @@
 
 # 
 
-# \## Layout
+# \## Design Flow
 
 # 
 
-# (images/layout\_cd4011.png)
+# 1\.  \*\*Schematic \& SPICE:\*\* Transistor-level design and functional verification.
+
+# 2\.  \*\*Analysis:\*\* Operating point analysis and DC/Transient simulations.
+
+# 3\.  \*\*Buffer Design:\*\* Implementation of a tapered buffer to improve fan-out.
+
+# 4\.  \*\*Layout:\*\* Physical implementation in Magic VLSI.
+
+# 5\.  \*\*Verification:\*\* Post-layout checks and DRC.
 
 # 
 
@@ -92,13 +84,43 @@
 
 # 
 
-# \## Future improvements
+# \## Layout Preview
 
 # 
 
-# \- parasitic extraction
+# 
 
-# \- post-layout timing analysis
+# ---
 
-# \- delay characterization
+# 
+
+# \## Tools Used
+
+# 
+
+# \* \*\*SPICE:\*\* Circuit simulation and performance verification.
+
+# \* \*\*Magic VLSI:\*\* Layout editing, DRC (Design Rule Check), and wiring.
+
+# 
+
+# ---
+
+# 
+
+# \## Future Improvements
+
+# 
+
+# \- \[ ] \*\*Parasitic Extraction (PEX):\*\* To account for R/C delays in routing.
+
+# \- \[ ] \*\*Post-layout Timing:\*\* Accurate delay characterization after extraction.
+
+# \- \[ ] \*\*Power Analysis:\*\* Static and dynamic power consumption studies.
+
+# 
+
+# ---
+
+# \*Created by \[MaSl3R](https://github.com/MaSl3R)\*
 
