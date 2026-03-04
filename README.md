@@ -1,8 +1,4 @@
-# \# ⚡ CMOS CD4011 NAND Gate – TSMC 180nm
-
-# 
-
-# !\[License](https://img.shields.io/badge/License-MIT-blue.svg) !\[Technology](https://img.shields.io/badge/Technology-TSMC\_180nm-green)
+# \# CMOS CD4011 NAND Gate – TSMC 180nm
 
 # 
 
@@ -14,15 +10,9 @@
 
 # 
 
-# \## 🛠 Project Overview
+# \## Key Features
 
 # 
-
-# The project covers the full custom IC design flow, from transistor-level schematics to physical layout and verification.
-
-# 
-
-# \### Key Features:
 
 # \* \*\*Transistor-level design:\*\* Optimized NAND logic core.
 
@@ -38,29 +28,7 @@
 
 # 
 
-# \## 🔬 Technical Specifications
-
-# 
-
-# | Parameter | Value |
-
-# | :--- | :--- |
-
-# | \*\*Technology\*\* | TSMC 180nm |
-
-# | \*\*Supply Voltage\*\* | 1.8V |
-
-# | \*\*Logic Function\*\* | 2-Input NAND |
-
-# | \*\*Tools\*\* | SPICE, Magic VLSI |
-
-# 
-
-# ---
-
-# 
-
-# \## 🚀 Design Flow
+# \## Design Flow
 
 # 
 
@@ -80,7 +48,7 @@
 
 # 
 
-# \## 🖼 Layout Preview
+# \## Layout Preview
 
 # 
 
@@ -88,7 +56,7 @@
 
 # 
 
-# > \*\*Note:\*\* The layout includes the NAND core, the output buffer chain, and routing for $V\_{DD}$ and GND.
+# > \*\*Note:\*\* The layout includes the NAND core, the output buffer chain, and routing for VDD and GND.
 
 # 
 
@@ -96,7 +64,7 @@
 
 # 
 
-# \## 📈 Future Improvements
+# \## Future Improvements
 
 # 
 
@@ -105,10 +73,4 @@
 # \* \[ ] \*\*Post-layout Timing:\*\* Accurate delay characterization after extraction.
 
 # \* \[ ] \*\*Power Analysis:\*\* Static and dynamic power consumption studies.
-
-# 
-
-# ---
-
-# \*Created by \[MaSl3R](https://github.com/MaSl3R)\*
 
