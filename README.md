@@ -1,10 +1,8 @@
-# \# CMOS CD4011 NAND Gate – TSMC 180nm
+# \# ⚡ CMOS CD4011 NAND Gate – TSMC 180nm
 
 # 
 
-# !\[License](https://img.shields.io/badge/License-MIT-blue.svg)
-
-# !\[Technology](https://img.shields.io/badge/Technology-TSMC\_180nm-green)
+# !\[License](https://img.shields.io/badge/License-MIT-blue.svg) !\[Technology](https://img.shields.io/badge/Technology-TSMC\_180nm-green)
 
 # 
 
@@ -16,7 +14,7 @@
 
 # 
 
-# \## Project Overview
+# \## 🛠 Project Overview
 
 # 
 
@@ -40,7 +38,7 @@
 
 # 
 
-# \## Technical Specifications
+# \## 🔬 Technical Specifications
 
 # 
 
@@ -50,11 +48,9 @@
 
 # | \*\*Technology\*\* | TSMC 180nm |
 
-# | \*\*Supply Voltage ($V\_{DD}$)\*\* | 1.8V |
+# | \*\*Supply Voltage\*\* | 1.8V |
 
 # | \*\*Logic Function\*\* | 2-Input NAND |
-
-# | \*\*Buffer Scaling Factor\*\* | $k=3$ (per stage) |
 
 # | \*\*Tools\*\* | SPICE, Magic VLSI |
 
@@ -64,29 +60,19 @@
 
 # 
 
-# \## Design Flow
+# \## 🚀 Design Flow
 
 # 
 
-# 1\.  \*\*Schematic \& SPICE:\*\* Transistor-level design and functional verification.
+# 1\. \*\*Schematic \& SPICE:\*\* Transistor-level design and functional verification.
 
-# 2\.  \*\*Analysis:\*\* Operating point analysis and DC/Transient simulations.
+# 2\. \*\*Analysis:\*\* Operating point analysis and DC/Transient simulations.
 
-# 3\.  \*\*Buffer Design:\*\* Implementation of a tapered buffer to improve fan-out.
+# 3\. \*\*Buffer Design:\*\* Implementation of a tapered buffer to improve fan-out.
 
-# 4\.  \*\*Layout:\*\* Physical implementation in Magic VLSI.
+# 4\. \*\*Layout:\*\* Physical implementation in Magic VLSI.
 
-# 5\.  \*\*Verification:\*\* Post-layout checks and DRC.
-
-# 
-
-# ---
-
-# 
-
-# \## Layout Preview
-
-# 
+# 5\. \*\*Verification:\*\* Post-layout checks and DRC.
 
 # 
 
@@ -94,13 +80,15 @@
 
 # 
 
-# \## Tools Used
+# \## 🖼 Layout Preview
 
 # 
 
-# \* \*\*SPICE:\*\* Circuit simulation and performance verification.
+# !\[Layout Screenshot](images/layout\_cd4011.png)
 
-# \* \*\*Magic VLSI:\*\* Layout editing, DRC (Design Rule Check), and wiring.
+# 
+
+# > \*\*Note:\*\* The layout includes the NAND core, the output buffer chain, and routing for $V\_{DD}$ and GND.
 
 # 
 
@@ -108,15 +96,15 @@
 
 # 
 
-# \## Future Improvements
+# \## 📈 Future Improvements
 
 # 
 
-# \- \[ ] \*\*Parasitic Extraction (PEX):\*\* To account for R/C delays in routing.
+# \* \[ ] \*\*Parasitic Extraction (PEX):\*\* To account for R/C delays in routing.
 
-# \- \[ ] \*\*Post-layout Timing:\*\* Accurate delay characterization after extraction.
+# \* \[ ] \*\*Post-layout Timing:\*\* Accurate delay characterization after extraction.
 
-# \- \[ ] \*\*Power Analysis:\*\* Static and dynamic power consumption studies.
+# \* \[ ] \*\*Power Analysis:\*\* Static and dynamic power consumption studies.
 
 # 
 
